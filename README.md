@@ -1,2 +1,28 @@
-# CNN-Based-Classification-of-Pneumonia-and-Tuberculosis-
-This project implements a deep learning system using Convolutional Neural Networks (CNNs) to classify chest X-ray images into three categories: Normal, Pneumonia, and Tuberculosis. It aims to assist radiologists by providing a fast and accurate automated diagnosis tool.
+# CNN-based Pneumonia and Tuberculosis Classification
+
+This project uses Convolutional Neural Networks (CNN) to classify chest X-ray images into:
+
+- Pneumonia
+- Tuberculosis
+- Normal
+
+### Features
+- Grayscale image preprocessing
+- Data augmentation
+- CNN model training & evaluation
+- GUI for testing images
+- Performance metrics (Confusion Matrix, Accuracy, ROC Curve)
+
+### Requirements
+- TensorFlow / Keras
+- OpenCV
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+### Running the Project
+
+```bash
+python gui_app.py
+
+📁 Dataset: [Download from Google Drive](https://drive.google.com/file/d/1AOQBqTkApMejpqKckHLyMpdB8uFFvS5l/view?usp=sharing)
